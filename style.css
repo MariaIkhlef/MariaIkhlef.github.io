@@ -6,8 +6,10 @@
 }
 
 * {
-  * margin-bottom: 1.5em;
-  * }
+  margin-bottom: 1.5em;
+  color: var(--text_color);
+  font-family: "JetBrains Mono", monospace;
+}
 
 body {
   margin: 20%;
@@ -16,4 +18,33 @@ body {
   font-family: "JetBrains Mono", monospace;
   font-size: 16px;
   line-height: 1.6;
+}
+
+button {
+  background-color: var(--light_background);
+  border: None;
+  padding: 10px;
+}
+button:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  border:solid 1px var(--text_color);
+  background-color: var(--background_color);
+}
+
+a {
+  font-style: italic;
+}
+a:hover {
+  color: var(--light_background);
+}
+ul{
+  list-style-type: none;
+}
+
+pre {
+  border-radius:25px;
+  font-family: monospace;
+  font-size: 14px;
+  background-color: var(--dark_text);
 }
