@@ -1,3 +1,13 @@
+:root {
+  --background_color: #312b33;
+  --text_color: #c0fce7;
+  --dark_text: #001313;
+  --light_background: #3d3e4c;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "JetBrains Mono", monospace;
+  background-color: var(--background-color);
+  color: var(--text_color);
+  font-size: 1em;
 }
